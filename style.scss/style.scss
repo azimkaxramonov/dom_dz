@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.container{
+    padding: 60px;
+    width: 1750px;
+    height: 1120px;
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+}
+.cont {
+height: 470px;
+    .top_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 364px;
+        height: 199px;
+        border: solid 1px black;
+
+        img {
+            width: 100px;
+            height: 150px;
+        }
+    }
+
+    .bottom_div {
+        background-color: #000000;
+        padding: 30px;
+        width: 364px;
+        height: 264px;
+        border: solid 1px;
+
+        .h1 {
+            font-size: 24px;
+            color: #FFFFFF;
+        }
+
+        .p {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #FFFFFF8F;
+        }
+
+        .box {
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            width: 230px;
+            height: 50px;
+            
+
+            .elem_one {
+                display: flex;
+                align-items: center;
+
+                color: #FFFFFF;
+                width: 60px;
+                height: 50px;
+                font-size: 24px;
+
+                img {
+                    margin-right: 10px;
+                    width: 10px;
+                    height: 15px;
+                }
+            }
+
+            .elem_two {
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+                width: 70px;
+                height: 50px;
+                font-size: 24px;
+
+                img {
+                    margin-right: 10px;
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+
+            .elem_three {
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+                width: 60px;
+                height: 50px;
+                font-size: 24px;
+
+                img {
+                    margin-right: 10px;
+                    width: 12px;
+                    height: 13px;
+                }
+            }
+        }
+        button{
+            width: 305px;
+            height: 55px;
+            border-radius: 10px;
+            font-size: 18px;
+            
+        }
+        
+    }
+}
+
+.active{
+    background-color: #1F86FF !important;
+    color: white;
+}
+.hide{
+    color: black;
+    background-color: #FFFFFF;
+}
